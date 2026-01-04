@@ -22,14 +22,20 @@ It is designed to be CI/CD friendly and uses environment variables for configura
 
 2. Run the collection:
    ```bash
-  newman run "ReqRes API Testing.postman_collection.json" \
-  -e "Local-API-Env.postman_environment.json"
+   newman run "ReqRes API Testing.postman_collection.json" \
+    -e "Local-API-Env.postman_environment.json"
 
-##Key Concepts Covered
+## Testing Concepts Demonstrated
 - Environment-based configuration
 - CLI-based API execution
 - Handling public API limitations
 - Debugging API failures
 
-##Author
+## Expected Output
+- CLI-based execution using Newman
+- Detailed request/response logs
+- Assertion results for each API
+- Execution summary with response time metrics
+
+## Author
  Dipanshi   
